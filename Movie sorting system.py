@@ -28,8 +28,8 @@ def validatelogin(email, password):
     password_val = password.get()
 
     # Assuming some predefined email and password for demonstration purposes
-    predefined_email = "School@gmail.com"
-    predefined_password = "school123"
+    predefined_email = "123"
+    predefined_password = "123"
 
     if email_val == predefined_email and password_val == predefined_password:
         # If the email and password match the predefined values, show "Login Successful" message
@@ -105,6 +105,3 @@ loginButton = Button(tkWindow, text="Login", command=login_screen)
 loginButton.place(x=325, y=280)
 
 tkWindow.mainloop()
-
-
-  
